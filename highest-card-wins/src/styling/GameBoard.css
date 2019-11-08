@@ -1,0 +1,52 @@
+.grid {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
+    
+  }
+
+  .cell {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 250px;
+    margin-bottom: 5px;
+  }
+
+  .cellBottom {
+    flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+    height: 250px;
+    margin-bottom: 5px;
+    position: relative;
+  }
+
+  .dealCell{
+    position: relative;
+  }
+
+  .deal{
+    width: 100px;
+    height: 100px;
+  }
+
+  .currentPlayer{
+    align-items: flex-end;
+    position: absolute;
+    bottom: 15%;
+    right: 50%;
+  }
+
+  .rotate-text-clockwise{
+    transform: rotate(90deg);
+  }
+
+  .rotate-text-counterclockwise{
+    transform: rotate(-90deg);
+    left: 90%;
+  }
+
+  .horizontalPlayers{
+    display: inline-block;
+  }
+
+  .cards{
+    max-width: 100%;
+  }

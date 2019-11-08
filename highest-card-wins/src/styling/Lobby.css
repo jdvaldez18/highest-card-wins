@@ -1,0 +1,61 @@
+.lobbytest{
+    margin: 0;
+    padding: 0;
+    font-family: garamond;
+    height: 70rem;
+    /* background:linear-gradient(to left, rgb(118, 211, 138) 0%, rgb(0, 128, 49) 100%); */
+    background: linear-gradient(to left, rgb(11, 16, 17) 10%, rgb(0, 128, 79) 100%);
+
+}
+/* .knockout {
+    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }*/
+  .fonthead {
+    color:rgb(224, 239, 205);
+    border-style: outset;
+    font-size: 4rem;
+    background: linear-gradient(to left, rgb(11, 16, 17) 10%, rgb(0, 128, 79) 100%);
+  } 
+  h2,.sizetype {
+      color:rgb(224, 239, 205);
+      font-size: 2rem;
+      font-family: garamond;
+      
+  }
+  .alignmenttoleft {
+    text-align: left;
+    
+  }
+  .oneside{
+    background: linear-gradient(to left, rgb(11, 16, 17) 10%, rgb(0, 128, 79) 100%);
+    border-style: outset;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 50px;
+    /*padding: 30px; */ 
+    border: 5px;
+
+  }
+  
+  .bordercontrol {
+    background: linear-gradient(to left, rgb(11, 16, 17) 10%, rgb(0, 128, 79) 100%);
+    border-style: outset;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 500px;
+   font-size:50px;
+    border: 5px;
+
+  }
+  .styling{
+      
+  }

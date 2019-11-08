@@ -1,0 +1,27 @@
+body {
+    padding: 100px 0 0;
+    text-align: center;
+    background: #f7f7f7;
+  }
+  
+  .deal-button {  
+      border: 6px solid transparent;
+      border-image: linear-gradient(to right, #0865F1 0%, #228B22 100%);
+      border-image-slice: 1;
+    
+      background: #fff;
+      color: #000;
+      font-size: 1em;
+      padding: 5px 22px;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      position: relative;
+      
+  }
+  
+  .deal-button:hover {
+      background-color: white;
+      background: linear-gradient(to right, #0865F1, #228B22);
+      color: #fff;
+  }

@@ -1,0 +1,43 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    
+  }
+  
+  .left {
+      left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+  #scores {
+      font-family:  Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+  
+    #scores td{
+      padding: 15px;
+    }
+    
+    #scores tr:nth-child(even){
+      background-color: #f2f2f2;
+    }
+    
+    #scores th, #scores caption {
+      text-align: center;
+      padding: 7px;
+      background-color: rgb(52, 128, 52);
+      color: white;
+    }
+    
+   
+  
+  
+  
